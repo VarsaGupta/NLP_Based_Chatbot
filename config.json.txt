@@ -1,0 +1,12 @@
+{
+    "model": {
+        "repository": "https://github.com/VarsaGupta/NLP_Based_Chatbot.git",
+        "subfolder": "",
+        "files": ["model_card.md","embeddings_chatbot.csv","backend.py","feedback_data.csv","frontend.py","README.txt","Dronealexa.csv",config.json"]
+    },
+    "card": {
+        "repository": "https://github.com/VarsaGupta/NLP_Based_Chatbot.git",
+        "subfolder": "",
+        "files": ["model_card.md"]
+    }
+}
