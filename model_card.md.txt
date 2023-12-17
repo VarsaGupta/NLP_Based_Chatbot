@@ -1,0 +1,75 @@
+--------------
+language: en
+tags:
+  - chatbot
+  - natural language processing
+license: Apache 2.0
+datasets:
+  - Custom Dataset (Dronealexa)
+---------------
+
+Model Card: NLP-Based Chatbot
+
+----------Overview---------
+
+The NLP-Based Chatbot is designed to explore Science & Technology topics. It utilizes a combination of semantic search and summarization techniques to provide relevant and concise responses to user queries.
+
+Model Details
+
+- Model Name: NLP-Based Chatbot
+- Model Type: Natural Language Processing (NLP) Chatbot
+- Framework: Gradio Blocks Interface, spaCy, Transformers
+
+--------Components------------
+
+1. Semantic Search
+
+The chatbot employs semantic search to retrieve relevant information from a preprocessed dataset (Dronealexa.csv). The search is based on a TF-IDF vectorizer and cosine similarity calculations.
+
+2. Summarization
+
+A summarization pipeline is used to generate concise summaries of the retrieved information. The Hugging Face Transformers library is utilized for summarization tasks.
+
+3. Custom Embeddings
+
+The model incorporates custom text embeddings using spaCy and pre-trained word embeddings. These embeddings enhance the understanding of user queries and contribute to the semantic search.
+
+4. Gradio Blocks Interface
+
+The chatbot's frontend is built using Gradio Blocks Interface, providing an interactive and user-friendly platform for users to input queries and receive responses.
+
+5. Model Card Generation
+
+The model card generation involves constructing prompts based on search results and utilizing a summarization pipeline to produce model card content.
+
+-----------Intended Use--------------
+
+The NLP-Based Chatbot is intended for users interested in exploring Science & Technology topics. It can be used to obtain information from the provided dataset, and users are encouraged to provide feedback for continuous improvement.
+
+---------------Training Data----------
+
+The model is trained on a custom dataset (Dronealexa.csv) containing Science & Technology-related information. The dataset has been preprocessed to handle missing values and ensure efficient semantic search.
+
+------------Evaluation Metrics---------------
+
+- Semantic Search: TF-IDF Vectorizer, Cosine Similarity
+- Summarization: Hugging Face Transformers Pipeline
+
+----------------Ethical Considerations---------------------
+
+The chatbot aims to provide accurate and relevant information. However, users are advised to critically evaluate the responses and understand that the model's knowledge is based on the training data.
+
+-----------------Usage Instructions----------------------
+
+1. Input your query in the provided textbox.
+2. Click the "Send" button to receive a response.
+3. Optionally, submit feedback using the "Submit Feedback" button.
+
+--------------License--------------------
+
+This model is released under the Apache 2.0 License.
+
+--------------Contact Information---------------------
+
+For inquiries or issues, please contact varsagupta07@gmail.com.
+
